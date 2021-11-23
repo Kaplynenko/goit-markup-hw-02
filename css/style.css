@@ -1,0 +1,92 @@
+/* цвет основного контента #757575 */
+/* вторичный цвет контента #212121; */
+/* цвет акцента #2196F3 */
+:root {
+  --main-content-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+  --primery-background: #ffffff;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--primery-background);
+}
+/* Логотип */
+.logo {
+  color: var(--accent-color);
+}
+.logo-studio {
+  color: var(--secondary-text-color);
+}
+/* навигация сайта */
+.nav-list .link {
+  color: var(--secondary-text-color);
+}
+.nav-list .link:hover,
+.nav-list .link:focus {
+  color: var(--accent-color);
+}
+/* навигация контакты */
+.contacts .link {
+  color: var(--main-content-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* секция Герой */
+.section-hero {
+  background-color: #2f303a;
+}
+.section-hero .hero-title {
+  color: var(--primery-background);
+}
+.btn-hero {
+  color: var(--primery-background);
+  background-color: var(--accent-color);
+}
+.main-content {
+  background-color: #e5e5e5;
+}
+/* скрытый заголовок в studio */
+/* секция с классом specificity */
+.title {
+  color: var(--secondary-text-color);
+}
+.text-item {
+  color: var(--main-content-color);
+}
+/* секция "Чем мы занимаемся" */
+.title {
+  color: var(--secondary-text-color);
+}
+.headline-title {
+  color: var(--secondary-text-color);
+}
+/* footer */
+.footer {
+  background: #2f303a;
+}
+.address-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.adrress {
+  color: var(--primery-background);
+}
+
+/* скрытый заголовок в portfolio */
+.hidden-title {
+  visibility: hidden;
+}
+.button-list .btn {
+  color: var(--secondary-text-color);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-color);
+  color: var(--primery-background);
+}
