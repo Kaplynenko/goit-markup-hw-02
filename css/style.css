@@ -18,6 +18,9 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  font: size 14px;
+  letter-spacing: 0.03;
+  color: var(--main-content-color);
   background-color: var(--primery-background);
 }
 /* Логотип */
@@ -83,8 +86,7 @@ body {
   letter-spacing: 0.06em;
 }
 .main-content {
-  color: var(--main-content-color);
-  background-color: var(--page-color);
+  background-color:
   font-weight: 400;
   font-size: 14px;
   line-height: 1.41px;
@@ -120,12 +122,15 @@ body {
 }
 .address-list .address-link {
   color: var(--color-element-address);
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .adrress {
+  font-style: normal;
+  font-size: 14px;
   color: var(--primery-background);
 }
 .address-link:hover,
@@ -164,3 +169,5 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
+a {text-decoration:none;}
+ul{ list-style-type:none;}
