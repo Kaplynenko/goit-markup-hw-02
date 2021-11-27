@@ -28,7 +28,7 @@ body {
   color: var(--accent-color);
   font-family: Raleway;
   font-style: normal;
-  font-weight: bold 700;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -117,6 +117,15 @@ body {
   background-color: var(--section-cards);
 }
 /* footer */
+.logo-footer{
+color: var(--primery-background);
+font-family: Raleway;
+font-style: normal;
+font-weight:700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
 .footer {
   background-color: var(--background-hero-footer);
 }
